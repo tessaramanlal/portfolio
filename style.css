@@ -1,0 +1,71 @@
+*{
+  box-sizing: : border-box;
+}
+
+body {
+  margin:0;
+  font-size: 1.25em;
+  font-family: Arial;
+}
+
+header {
+  min-height:100vh;
+  background-color: #f9b8ea
+}
+
+nav{
+  background-color: rgb(51, 48, 45);
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+}
+
+a {
+  text-decoration: none
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+nav ul {
+  margin: 0;
+}
+
+header main {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 1.25em;
+}
+
+h1 {text-transform: uppercase;
+font-size: 2.5em;
+letter-spacing: 0.3em;
+}
+
+.about-me {
+  padding: 3em 0;
+  background-color: rgb(51, 48, 45);
+  color: white;
+  line-height: 2;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.projects {
+  line-height: 2;
+  padding: 3em 0;
+  background-color: rgb(220, 220, 220);
+}
+
+.projects img {
+  width: 30%;
+  padding: 30px;
+}
